@@ -45,18 +45,31 @@
           <div class="col-md-3">
             <form class="bg-dark">
                 <p>Filter Search</p>             
-              <ul class="list-group" class="bg-dark">
-                <li class="list-group-item" class="bg-dark">
+              <ul class="list-group bg-dark">
+                <li class="list-group-item bg-dark">
                     <label for="date">Enter Date</label>
-                    <input type="text" placeholder="1/10/2010" id="datetime" />
+                    <input type="text" placeholder="1/10/2010" id="datetime">
                 </li>
-                <li class="list-group-item" class="bg-dark">
-                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table
-
-                </button>
+                <li class="filter list-group-item bg-dark">
+                    <label for="city">Enter City</label>
+                    <input type="text" placeholder="benton" id="cityname">
+                </li>
+                <li class="filter list-group-item bg-dark">
+                    <label for="state">Enter a State</label>
+                    <input type="text" placeholder="ar" id="statename">
+                </li>
+                <li class="filter list-group-item bg-dark">
+                    <label for="country">Enter a Country</label>
+                    <input type="text" placeholder="us" id="countryname">
+                </li>
+                <li class="filter list-group-item bg-dark">
+                    <label for="shape">Enter a Shape</label>
+                    <input type="text" placeholder="circle" id="shapename">
                 </li>
             </ul>
-            </form>
+            <button id="filter-btn" type="sumbit" class="btn btn-default">Filter Table</button>
+            <button id="clear-btn" type="submit" class="btn btn-default">Clear</button>
+        </form>
 
      </div>
 
