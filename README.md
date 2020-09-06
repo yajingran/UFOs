@@ -3,7 +3,7 @@ Build an user-interative website where users are allowed to filter for multiple 
 ## Overview of Project
 In this project, we built a table using data stored in a Javascript array. A number of filters were created to make the table fuly dynamic, and then place the table into a HTML file for easy viewing. Then, I used Bootstrap to customize the webpage.
 ## Results
-![filter_table](filter_table.png)
+![filter_table](filter_table.PNG)
 <br />The filter table allows website visitors to filter the table on the five criteria: date, city, state, country and shape. They are able to type in the specific criteria and click filter table, the table will be filtered according to the criteria.
 
 
