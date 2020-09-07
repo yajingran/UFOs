@@ -1,5 +1,6 @@
 # **UFOs**
 Build an user-interative website where users are allowed to filter for multiple criteria at the same time. The criteria include date, city, state, country, and shape.
+![website](website.PNG)
 ## Overview of Project
 In this project, we built a table using data stored in a Javascript array. A number of filters were created to make the table fuly dynamic, and then place the table into a HTML file for easy viewing. Then, I used Bootstrap to customize the webpage.
 ## Results
